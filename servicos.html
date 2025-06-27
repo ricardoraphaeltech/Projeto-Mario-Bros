@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Bros | Ricardo Raphael</title>
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="servicos.css">
+</head>
+
+<body>
+    <header>
+        <a href="./index.html">
+            <img class="logo-header" src="./img/icon.png" alt="logo mario" />
+        </a>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a class="link-fale-conosco" href="#">Fale Conosco</a>
+            <a href="#">Nossos Serviços</a>
+        </nav>
+    </header>
+
+    <div class="caixa-video">
+        <video src="./img/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+    <main>
+        <div class="cards-container">
+            <div class="grade-cards">
+                <div class="card-servico">
+                    <img class="img-servico" src="./img/servico-manutencao.png" />
+                    <div class="caixa-texto">
+                        <h3 class="nome-servico">Manutenção</h3>
+                    </div>
+                </div>
+                <div class="card-servico">
+                    <img class="img-servico" src="./img/servico-desentupimento.png" />
+                    <div class="caixa-texto">
+                        <h3 class="nome-servico">Desentupimento</h3>
+                    </div>
+                </div>
+                <div class="card-servico">
+                    <img class="img-servico" src="./img/servico-caca-vazamento.png" />
+                    <div class="caixa-texto">
+                        <h3 class="nome-servico">Caça vazamentos</h3>
+                    </div>
+                </div>
+                <div class="card-servico">
+                    <img class="img-servico" src="./img/servico-instalacao.png" />
+                    <div class="caixa-texto">
+                        <h3 class="nome-servico">Instalação</h3>
+                    </div>
+                </div>
+                <div class="card-servico">
+                    <img class="img-servico" src="./img/servico-instalacao-caixa-dagua.png" />
+                    <div class="caixa-texto">
+                        <h3 class="nome-servico">Caixa d'água</h3>
+                    </div>
+                </div>
+                <div class="card-servico">
+                    <img class="img-servico" src="./img/serviço-banheira.png" />
+                    <div class="caixa-texto">
+                        <h3 class="nome-servico">Banheira e Chuveiro</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="caixa-botão">
+                <button id="botao-contato">Entre em contato</button>
+            </div>
+        </div>
+    </main>
+
+    <a class="link-whatsapp"
+        href="https://wa.me/5515991535151?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20servi%C3%A7o."
+        target="_blank">
+        <img src="./img/whatsapp-icon.png" alt="logo whatsapp" />
+    </a>
+
+    <form class="formulario-fale-conosco" 
+        action="https://formcarry.com/s/LSyVC--9k28" 
+        method="POST"
+        enctype="multipart/form-data">
+        <input type="text" name="nome" placeholder="Seu nome">
+        <input type="tel" name="telefone" placeholder="Seu telefone">
+        <input type="email" name="email" placeholder="Digite seu e-mail">
+        <textarea name="duvida" placeholder="Digite seu problema aqui..."></textarea>
+        <div class="caixa-botão">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+
+    <div class="mascara-formulario"></div>
+
+    <footer>
+        <p class="copyright">Copyright &copy; 2025 - Todos os direitos reservados.</p>
+        <p class="copyright">Desenvolvido por: Ricardo Raphael.</p>
+    </footer>
+</body>
+<script src="./script.js"></script>
+</html>
