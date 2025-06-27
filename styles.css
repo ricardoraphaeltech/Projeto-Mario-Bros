@@ -331,6 +331,12 @@ footer .copyright {
     }
 }
 
+@media screen and (max-width: 480px) {
+    main .conteudo-imagem .imagem-mario-luigi {
+        height: 240px;
+    }
+}
+
 @media screen and (max-width: 414px) {
     header .logo-header {
         width: 40px;
@@ -342,10 +348,6 @@ footer .copyright {
 
     header nav a {
         font-size: 18px;
-    }
-
-    main .conteudo-imagem .imagem-mario-luigi {
-        height: 280px;
     }
 
     .link-whatsapp img {
