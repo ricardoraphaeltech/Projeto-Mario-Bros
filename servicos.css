@@ -286,7 +286,7 @@ footer .copyright {
 
 @media screen and (max-width: 480px) {
     main .cards-container .grade-cards {
-        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
 }
 
@@ -301,10 +301,6 @@ footer .copyright {
 
     header nav a {
         font-size: 18px;
-    }
-
-    main .cards-container .grade-cards {
-        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     }
 
     .link-whatsapp img {
@@ -327,10 +323,6 @@ footer .copyright {
 
     header nav a {
         font-size: 17px;
-    }
-
-    main .cards-container .grade-cards {
-        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     }
 }
 
