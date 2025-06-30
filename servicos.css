@@ -288,6 +288,10 @@ footer .copyright {
     main .cards-container .grade-cards {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
+
+    footer .copyright {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 414px) {
@@ -305,10 +309,6 @@ footer .copyright {
 
     .link-whatsapp img {
         width: 40px;
-    }
-
-    footer .copyright {
-        font-size: 15px;
     }
 }
 
