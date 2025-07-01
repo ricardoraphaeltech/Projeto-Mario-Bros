@@ -54,14 +54,15 @@
         <img src="./img/whatsapp-icon.png" alt="logo whatsapp" />
     </a>
 
-    <form class="formulario-fale-conosco" 
+    <form onsubmit="return validarNome(), validarTelefone(), validarEmail(), validarDuvida()"
+        class="formulario-fale-conosco" 
         action="https://formcarry.com/s/LSyVC--9k28" 
         method="POST"
         enctype="multipart/form-data">
-        <input type="text" name="nome" placeholder="Seu nome">
-        <input type="tel" name="telefone" placeholder="Seu telefone">
-        <input type="email" name="email" placeholder="Digite seu e-mail">
-        <textarea name="duvida" placeholder="Digite seu problema aqui..."></textarea>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" />
+        <input type="tel" id="telefone" name="telefone" placeholder="Seu telefone" />
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" />
+        <textarea id="duvida" name="duvida" placeholder="Digite seu problema aqui..."></textarea>
         <button type="submit">Enviar</button>
     </form>
 
